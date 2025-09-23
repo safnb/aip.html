@@ -1,0 +1,33 @@
+p {
+    color: #ffb6c1;
+}
+h1 {
+    color: green;
+}
+h2{
+    color: rgb(42, 42, 200);
+}
+h3{
+    color: rgb(146, 70, 70);
+}
+h4{
+    color: #32cd32
+}
+td{
+    width: 400px;
+    height: 300px;
+}
+p {
+	text-align: center;
+}
+th {
+	text-align: left;
+}
+
+table {
+	width: 400px;
+}
+p {
+	text-align: justify;
+	width: 300px;
+}

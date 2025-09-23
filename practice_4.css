@@ -1,0 +1,32 @@
+h1 {
+    font-size: 40px;
+	text-align: center;
+    font-family: "Times New Roman";
+	color:blue;
+}
+h2 {
+    font-size: 30px;
+	text-align: center;
+    font-family: "Times New Roman";
+	color: green;
+	font-weight: normal;
+
+}
+p {
+    font-size: 15px;
+	font-family: Arial;
+	line-height: 30px;
+	font-weight: normal;
+	text-align: justify;
+	width: 550px;
+	
+}
+i{
+	color: green;
+}
+li{
+	
+	text-align: justify;
+	width: 450px;
+	font-size: 15px;
+}

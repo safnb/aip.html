@@ -1,0 +1,49 @@
+h1, h2, h3 {
+    text-align: center;
+    color: red;
+}
+
+h3 {
+    font-size: 16px;
+}
+li {
+	color: red;
+}
+ul li i {
+	color: red;
+}
+ul{
+    color: red;
+}
+p{
+    color:green;
+}
+i{
+    color:red;
+}
+
+p > i {
+	color: red;
+}
+li > b {
+	color: green;
+}
+.eee {
+	color: green;
+}
+.zzz {
+	color: red;
+}
+.eve{
+    color:green;
+}
+.odd{
+    color:red;
+}
+
+.red {
+	color: blue;
+}
+.xxx{
+    font-size:30px;
+}
