@@ -1,4 +1,4 @@
-h1, h2, h3 {
+h1, h3 {
     text-align: center;
     color: red;
 }
@@ -6,44 +6,202 @@ h1, h2, h3 {
 h3 {
     font-size: 16px;
 }
-li {
-	color: red;
-}
+
 ul li i {
-	color: red;
-}
-ul{
     color: red;
-}
-p{
-    color:green;
-}
-i{
-    color:red;
 }
 
 p > i {
-	color: red;
+    color: red;
 }
+
 li > b {
-	color: green;
+    color: yellow;
 }
-.eee {
-	color: green;
+.eve {
+    color: violet;
 }
-.zzz {
-	color: red;
-}
-.eve{
-    color:green;
-}
-.odd{
-    color:red;
+
+.odd {
+    color: blueviolet;
 }
 
 .red {
+    color: blue;
+}
+
+.xxx {
+    font-size: 30px;
+}
+
+.bl1 {
+    color: red;
+}
+
+.bl3 {
+    color: green;
+}
+.eee {
+	font-size: 20px;
+    color: yellowgreen;
+}
+.zzz {
+	font-size: 30px;
+    color: red;
+}
+.eee, .zzz{
+    line-height: 1.5;
+    font-size: Arial;
+}
+.ggg {
+	font-size: 35px;
+    color: goldenrod;
+}
+.eee, .zzz, .ggg{
+    text-align: center;
+	font-family: Arial;
+}
+h2.header {
+	color: burlywood;
+    font-size: 40px;
+}
+h3.header{
+    font-size: 30px;
+}
+.eee i{
+    color:brown;
+}
+.eee h2.bbb {
+	color: red;
+}
+p.bbb {
+	color: violet;
+}
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+#elem2{
+    color: green;
+}
+#elem3{
+    color: blue;
+}
+#block {
+            color: darkcyan;
+            font-size: 30px;
+        }
+        
+        .text {
+            color: salmon;
+            font-size: 16px;
+        }
+#elem h2{
+    color:aquamarine;
+}
+#block text{
+    color:aqua;
+}
+.eee.zzz.ccc{
+    color:blue;
+    font-size: 40px;
+}
+#block h1, .block h2 {
+	text-align: center;
+}
+#block h1 {
+	font-size: 30px;
+}
+#block h2 {
+	font-size: 20px;
+}
+#block h1, .block h2, .block h3{
+	text-align: center;
+}
+#block h2 {
 	color: blue;
 }
-.xxx{
-    font-size:30px;
+#block h3 {
+
+	font-size: 16px;
+	color: red;
+}
+div p{
+    color:brown;
+}
+#block h2{
+    font-size: 45px;
+}
+#elem + li{
+    color:green;
+}
+.elem + li{
+    color:blueviolet;
+}
+#elem ~ li{
+    color:bisque;
+}
+main * p{
+    color:blue;
+}
+#test a {
+	color: red;
+}
+#test a:hover {
+	text-decoration: none;
+}
+li:first-child {
+	color: red;
+}
+li:last-child {
+	color: greenyellow;
+}
+li:nth-child(3) {
+	color: red;
+}
+li:not(:first-child):not(:last-child){
+    color: blue;
+}
+#elem {
+    text-align: center;
+	color: black;
+    border-width: 6px;
+	border-style: solid;
+    border-left-color: green;
+    border-right-color: violet;
+    border-top-color: rebeccapurple;
+    border-bottom-color: red;
+	width: 110px;
+	height: 80px;
+    border-radius: 20px;
+    background-color: #e4f1ed;
+}
+
+#rtt {
+	width: 120px;
+	height: 120px;
+	border-radius: 80px;
+	border: 1px solid green;
+    border-radius: 50%;
+}
+body {
+            background-image: url('bg.png');
+            background-repeat: repeat;
+            width: 100px;
+            height: 100px;
+            background-attachment: fixed;
+        }
+ul {
+	list-style-type: square;
+}
+ol {
+	list-style-type: decimal-leading-zero;
 }

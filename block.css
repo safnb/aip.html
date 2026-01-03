@@ -1,0 +1,297 @@
+#parent {
+	width: 300px;
+	border: 1px solid red;
+}
+#child {
+	height: 100px;
+	border: 1px solid green;
+    margin-top:    10px; /* сверху */
+	margin-right:  20px; /* справа */
+	margin-bottom: 30px; /* снизу */
+	margin-left:   40px; /* слева */
+}
+
+#qw{
+    width: 400px;
+    height: 300px;
+    border: dashed rgb(62, 53, 155);
+}
+#wq {
+	height: 200px;
+    width: 300px;
+	border: 1px solid rgb(207, 150, 57);
+    margin: 30px;
+    margin-top:    40px; /* сверху */
+	margin-right:  40px; /* справа */
+	margin-bottom: 40px; /* снизу */
+	margin-left:   40px; /* слева */
+}
+#xx {
+	height: 400px;
+    width: 400px;
+	border: 1px dashed green;
+    margin-top:    100px; /* сверху */
+	margin-right:  100px; /* справа */
+	margin-bottom: 100px; /* снизу */
+	margin-left:   100px; /* слева */
+}
+   
+#zz{
+    width: 200px;
+    height: 200px;
+    border: dashed blue;
+	margin: 100px 100px
+}
+
+#zx{
+    height: 50px;
+    width: 50px;
+    border: solid red;
+	margin: 80px 80px 80px 80px
+}
+#elem {
+	width: 700px;
+	border: 1px solid black;
+	text-align: justify;
+	padding: 30px;
+}
+
+#dw {
+	width: 200px;
+	border: 1px solid red;
+	text-align: justify;
+	padding: 40px;
+	margin: 80px 80px 80px 80px
+}
+
+#wd {
+	width: 200px;
+	border: 1px solid red;
+	text-align: justify;
+	padding-top:    80px; /* сверху */
+	padding-right:  20px; /* справа */
+	padding-bottom: 80px; /* снизу */
+	padding-left:   20px; /* слева */
+	margin: 80px 80px 80px 80px
+}
+
+#a {
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+	padding-top:    40px; /* сверху */
+	padding-right:  40px; /* справа */
+	padding-bottom: 80px; /* снизу */
+	padding-left:   80px; /* слева */
+	margin: 80px 80px 80px 80px
+}
+
+#b {
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+	padding-top:    80px; /* сверху */
+	padding-right:  40px; /* справа */
+	padding-bottom: 80px; /* снизу */
+	padding-left:   40px; /* слева */
+	margin: 80px 80px 80px 80px
+}
+
+#c {
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+	padding-top:    20px; /* сверху */
+	padding-right:  20px; /* справа */
+	padding-bottom: 80px; /* снизу */
+	padding-left:   20px; /* слева */
+	margin: 80px 80px 80px 80px
+}
+
+#elem1 {
+	width: 100px;
+	height: 100px;
+	background: #7bcca1;
+	margin-bottom: 20px;
+}
+
+#elem2 {
+	padding: 25px; /* задаем отступы */
+	width: 100px;
+	height: 100px;
+	background: #7bcca1;
+	border: 10px solid green;
+	box-sizing: border-box;
+}
+
+/* div {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	border: 1px solid red;
+} */
+
+/* span {
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
+
+span {
+	border: 1px solid red;
+} */
+
+span {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	margin-bottom: 20px;
+}
+
+p {
+    display: inline;
+}
+
+div .elem {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    display: inline-block;
+}
+#aa {
+    width: 300px;
+    border: 1px solid red;
+    padding: 80px 40px;
+    margin: 80px;
+    position: relative; /* Для позиционирования дочерних элементов */
+    box-sizing: border-box; /* Чтобы padding не увеличивал размер */
+}
+
+#bb {
+    width: 50px;
+    border: 1px solid green;
+    padding: 20px 20px;
+    margin: 5px auto 10px; /* Центрирование внутри aa */
+    box-sizing: border-box;
+}
+
+#cc {
+    width: 100px;
+    border: 1px solid green;
+    padding: 40px 40px;
+    margin: 5px auto 10px; /* Центрирование внутри bb */
+    box-sizing: border-box;
+}
+
+#dd {
+    width: 150px;
+    border: 1px solid green;
+    padding: 60px 60px;
+    margin: 5px auto 10px; /* Центрирование внутри cc */
+    box-sizing: border-box;
+}
+
+.q {
+	text-align: center;
+	padding: 10px 0;
+	border: 1px solid red;
+}
+.w{
+	border: 1px solid green;
+}
+
+.par{
+	padding: 10px 0;
+	border: 1px solid violet;
+	margin-top: 10px;
+}
+.chi{
+	padding: 10px;
+	border: 1px solid rgb(84, 211, 177);
+	margin: 5px;
+}
+
+.t {
+	display: inline-flex;
+	border: 1px solid red;
+	margin: 15px;
+	padding: 10px;
+}
+.ld {
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+
+.re {
+	display: inline-flex;
+	border: 1px solid red;
+	justify-content: center;
+}
+.il {
+	margin: 10px;
+	width: 80px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+.r {
+	display: flex;
+	border: 1px solid blue;
+	justify-content: center;
+	margin: 20px;
+	width: 500px;
+	height: 200px;
+
+}
+.i {
+	width: 80px;
+	height: 80px;
+	border: 1px solid blueviolet;
+}
+
+.re {
+	display: flex;
+	border: 1px solid rgb(214, 21, 117);
+	justify-content: space-between;
+	margin: 20px;
+	width: 500px;
+	height: 200px;
+
+}
+.ie {
+	width: 80px;
+	height: 80px;
+	border: 1px solid rgb(30, 78, 191);
+}
+
+.rr {
+	display: flex;
+	border: 1px solid rgb(137, 96, 8);
+	justify-content: space-around;
+	margin: 20px;
+	width: 500px;
+	height: 200px;
+
+}
+.e {
+	width: 80px;
+	height: 80px;
+	border: 1px solid rgb(14, 94, 38);
+}
+
+.ww {
+	display: flex;
+	border: 1px solid rgb(137, 96, 8);
+	justify-content: space-evenly;
+	margin: 20px;
+	width: 500px;
+	height: 200px;
+
+}
+.yy {
+	width: 80px;
+	height: 80px;
+	border: 1px solid rgb(36, 17, 132);
+}
